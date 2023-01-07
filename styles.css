@@ -1,18 +1,70 @@
-/* 
-background: #2196F3;
-background: #212121;
-background: #757575;
-background: #FFFFFF99;
-*/
+:root {
+    --accent-color: #2196F3;
+    --primary-color: #212121;
+    --secondary-color: #757575;
+    --thirdly-color: #FFFFFF99;
+    --background-color: #2F303A;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
 }
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 ul {
     list-style: none;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.logo span {
+    color: var(--accent-color);
+}
+
+.nav-link,
+.contact-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
+.contact-link {
+    color: var(--secondary-color);
+}
+
+.hero {
+    background-color: var(--background-color);
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
 }

@@ -1,0 +1,26 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.guides.bracketPairs": "active",
+  "files.autoSave": "onFocusChange",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "window.zoomLevel": 1,
+  "workbench.settings.editor": "json",
+  "workbench.settings.useSplitJSON": true,
+  "diffEditor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "workbench.colorTheme": "Dracula",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {
+    "[Dracula]": {}
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.bracketPairColorization.enabled": true
+}
